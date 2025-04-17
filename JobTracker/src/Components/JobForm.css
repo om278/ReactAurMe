@@ -1,0 +1,48 @@
+/* src/components/JobForm.css */
+.job-form {
+    margin-bottom: 1.5rem; /* Space below the form */
+  }
+  
+  .form-input {
+    border: 1px solid #d1d5db; /* Gray border */
+    padding: 0.5rem; /* Padding inside inputs */
+    margin-right: 0.5rem; /* Space between inputs */
+    border-radius: 0.25rem; /* Slightly rounded corners */
+    font-size: 1rem;
+  }
+  
+  .form-select {
+    border: 1px solid #d1d5db;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    background-color: #ffffff;
+  }
+  
+  .form-button {
+    background-color: #3b82f6; /* Blue background */
+    color: #ffffff; /* White text */
+    padding: 0.5rem 1rem; /* Vertical and horizontal padding */
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* Smooth hover effect */
+  }
+  
+  .form-button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+  }
+
+
+  @media (max-width: 640px) {
+    .form-input,
+    .form-select,
+    .form-button {
+      display: block;
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+  }
+  

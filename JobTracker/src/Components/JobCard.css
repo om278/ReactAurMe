@@ -1,0 +1,31 @@
+/* JobCard.css */
+.job-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e7eb;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .job-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #3b82f6; /* Blue-500 */
+    margin-right: 0.75rem;
+  }
+  
+  .job-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  
+  .job-details {
+    font-size: 1rem;
+  }
+  
+  .job-date {
+    font-size: 0.875rem;
+    color: #6b7280; /* Gray-500 */
+  }
