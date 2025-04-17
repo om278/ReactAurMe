@@ -2,7 +2,7 @@
 
 # How to run this Code :
 
-clone the repo : https://github.com/om278/ReactAurMe.git
+clone the repo : `https://github.com/om278/ReactAurMe.git`
 
 install node module on perticular files by `npm i`
 
