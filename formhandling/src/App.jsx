@@ -4,15 +4,18 @@ function App() {
   // const[user , setUser]=useState('')
   // const[pass , setPass]=useState('')
   const[formdata , setFormdata]=useState({name:"",password:""})
+  const [user , setUser] = useState("currently user not found")
   function handlechange(e) {
     setFormdata({
       ...formdata,
       [e.target.name]:[e.target.value],
     })
+    
   }
   function handleform(e) {
     e.preventDefault()
     console.log("submited", formdata);
+    setUser(formdata.name)
     
   }
   return (
@@ -20,7 +23,7 @@ function App() {
       <h1>Form Handling</h1>
       <form onSubmit={handleform}>
         <label htmlFor="name">
-          <input type="text"
+          <input type="text" 
            name='name' 
            placeholder='Enter your Name'
            value={formdata.name}
@@ -35,6 +38,8 @@ function App() {
         </label>
         <input type="submit" value="submit" />
       </form>
+
+      <h1>{user}</h1>
       </>
   )
 }

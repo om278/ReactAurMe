@@ -1,9 +1,15 @@
 import React, { useState } from 'react'
 import './App.css'
+import Nwee from './Nwee'
 function App() {
  const [Color, SetColor]= useState('')
   return (
+
+
+
     <div className='new ' style={{ backgroundColor: Color }}    >
+
+
       <div className='btn'>
         <button style={{ backgroundColor: "red" }} onClick={()=>{
           SetColor("red")
